@@ -12,8 +12,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.2"
-        android:gravity="center"
+        android:layout_weight=""
+        android:gravity="left"
         android:orientation="vertical">
 
 
@@ -21,14 +21,14 @@
             android:id="@+id/Edit_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="첫 번째 숫자"
+            android:hint="숫자1"
             android:textSize="25dp" />
 
         <EditText
             android:id="@+id/Edit_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="두 번째 숫자"
+            android:hint="숫자2"
             android:textSize="25dp" />
 
     </LinearLayout>
@@ -36,13 +36,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:layout_weight="0"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_add"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="더하기"
             android:textSize="25dp" />
@@ -50,7 +52,8 @@
         <Button
             android:id="@+id/btn_sub"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="빼기"
             android:textSize="25dp" />
@@ -58,7 +61,8 @@
         <Button
             android:id="@+id/btn_mul"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="곱하기"
             android:textSize="25dp" />
@@ -66,7 +70,8 @@
         <Button
             android:id="@+id/btn_div"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="나누기"
             android:textSize="25dp" />
@@ -78,7 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="계산결과 : "
-        android:textColor="#171717"
-        android:textSize="40dp" />
+        android:textColor="#F44336"
+        android:textSize="35dp" />
 
 </LinearLayout>
